@@ -8,3 +8,14 @@ h1{
 body{
     margin: 0px;
 }
+.box1{
+    background-color: orangered;
+    border-bottom: black solid;
+  border-top: black solid;
+  border-left: black solid;
+  border-right: black solid;
+  height: 500px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
