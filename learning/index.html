@@ -6,20 +6,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My website</title>
     <link rel="stylesheet" href= "css/main.css">
+    <script src="all.js"></script>
 </head>
+
 <body>
-<header>
-<h1>
-    My website
-</h1>
-<nav class="navbar">
-    <ul class="nav">
-        <li class="nav1"><a href="#"> Home</a></li>
-        <li class="nav1"><a href="#"> services</a></li>
-        <li class="nav1"><a href="#"> about</a></li>
-        <li class="nav1"><a href="#"> more</a></li>
-    </ul>
-</nav>
+<header class="header">
+ <nav class="nav"></nav>
+<div class="nav__header">
+<a href="#" class="nav__logo">
+    <i class="fa-brands fa-neos"></i>
+</a>
+
+</div>
+<ul class="nav__links">
+    <li class="li"><a href="#" class="nav__single-link"> <strong>home</strong> </a></li>
+    <li class="li"><a href="#" class="nav__single-link"> <strong>about</strong> </a></li>
+    <li class="li"><a href="#" class="nav__single-link"> <strong>services</strong> </a></li>
+    <li class="li"><a href="#" class="nav__single-link"> <strong>projects</strong> </a></li>
+    <li class="li"><a href="#" class="nav__single-link"> <strong>contact</strong> </a></li>
+</ul>
+
+   
+
+
+
+
+
+
+
+    </nav>
+
+    <section class="niya">
+        <div class="niya__continer">
+            <h1 class="niya__title">i'm niya fathima</h1>
+            <h1 class="niya__jobs">
+                Student <span>
+                    <i class="fas fa-angle-double-right"></i>
+                       </span>
+                 Artist  <span>
+                    <i class="fas fa-angle-double-right"></i>
+                       </span>    
+            </h1>
+        </div>
+    </section>S
 </header>
+  
+<section class="about">
+    <div class="about__center">
+<article class="about-img">
+    <img src="../learning/sub.png" alt="" class="about-img__photo">
+</article>
+<article class="about-info">
+    <div class="about-info__container">
+        <h1 class="about-info__title">about me</h1>
+        <p class="about-info__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde obcaecati ratione vero ut, sequi quidem nobis architecto provident dolore dignissimos eos eum ea? Labore repellendus odio, in architecto sit tenetur!
+        </p>
+<div class="about-info__links">
+    <a href="#" class="about-info__single-link dark-btn">hire me</a>
+    <a href="#" class="about-info__single-link light-btn">download CV</a>
+</div>
+
+    </div>
+</article>
+    </div>
+</section>
+<section class="services">
+    <div class="section-title">
+        <h1 class="section-title__name">services</h1>
+    </div>
+<div class="services__center"></div>
+<article class="services__single-service">
+ <div class="services__single-serviece-icon">
+ <i class="fas fa-calendar-check"> </i>
+ </div>
+ <h2 class="services__single-serviece-title">puncual</h2>
+<p class="services__single-serviece-text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, corporis?
+</p>      
+</article>
+
+<article class="services__single-service">
+    <div class="services__single-serviece-icon">
+    <i class="fas fa-rocket"> </i>
+    </div>
+    <h2 class="services__single-serviece-title">creativity</h2>
+   <p class="services__single-serviece-text">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, corporis?
+   </p>      
+   </article>
+   <article class="services__single-service">
+    <div class="services__single-serviece-icon">
+    <i class="fas fa-cogs"> </i>
+    </div>
+    <h2 class="services__single-serviece-title">hard work</h2>
+   <p class="services__single-serviece-text">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, corporis?
+   </p>      
+   </article>
+
+   <article class="services__single-service">
+    <div class="services__single-serviece-icon">
+    <i class="fas fa-brush"> </i>
+    </div>
+    <h2 class="services__single-serviece-title">arts</h2>
+   <p class="services__single-serviece-text">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, corporis?
+   </p>      
+   </article>
+</section>
+<section class="numbers">
+<div class="section-title">
+    <h1 class="section-title__name">
+numbers
+    </h1>
+</div>
+<div class="numbers__center">
+
+<article class="numbers__single-number">
+    <span class="numbers__single-number-icon">
+        <i class="fas fa-thumbs-up"></i>
+    </span>
+    <h1 class="numbers__single-number-text">
+        245
+    </h1>
+    <h2 class="numbers__single-number-title">
+        projects
+    </h2>
+    </article>
+
+
+
+    <article class="numbers__single-number">
+        <span class="numbers__single-number-icon">
+            <i class="fas fa-edit"></i>
+        </span>
+        <h1 class="numbers__single-number-text">
+            10000
+        </h1>
+        <h2 class="numbers__single-number-title">
+        lines of code 
+        </h2>
+        </article>
+
+
+        <article class="numbers__single-number">
+            <span class="numbers__single-number-icon">
+                <i class="fas fa-trophy"></i>
+            </span>
+            <h1 class="numbers__single-number-text">
+                6
+            </h1>
+            <h2 class="numbers__single-number-title">
+                awards
+            </h2>
+            </article>
+</div>
+</section>
+
+<section class="contact">
+    <div class="section-title">
+        <h1 class="section-title__name">
+            contact
+        </h1>
+    </div>
+
+<div class="contact__center">
+    <form>
+<div class="contact__header">
+<input type="text" name="" id="" placeholder="name"
+class="contact__name">
+<input type="email" name="" id="" placeholder="email"
+class="contact__email">
+</div>
+
+<textarea name="" id="" cols="30" rows="10" placeholder="how can i hepl you"
+class="contact__textarea"></textarea>
+
+<button type="submit" class="contact__btn">
+    <span class="contact__icon">
+        <i class="fas fa-plane"></i>
+    </span>
+    send message
+</button>
+
+    </form>
+</div>
+</section>
+
+
+<footer class="footer">
+    <div class="footwr__icons">
+<a href="#" class="footer__single-icon">
+    <i class="fab fa-facebook"></i>
+</a>
+<a href="#" class="footer__single-icon">
+    <i class="fab fa-twitter"></i>
+</a>
+<a href="#" class="footer__single-icon">
+    <i class="fab fa-instagram"></i>
+</a>
+<a href="#" class="footer__single-icon">
+    <i class="fab fa-linkedin"></i>
+</a>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
 </body>
 </html>
