@@ -65,17 +65,9 @@ transition: all is linear;
     transition: all 2s linear;
 }
 
-
-
-
-
-
-
-
-
 .header{
     min-height: 100vh;
-    background: url(../Learning.webp) fixed no-repeat;
+    background: url(../images/Learning.webp) fixed no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -139,7 +131,7 @@ position: relative;
     font-size: 3rem;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
-    background: url(../lkjh.jpg) no-repeat; 
+    
 }
 .about-info__text{
     color: var(--blue);
@@ -263,7 +255,7 @@ align-items: flex-end;
 
 .numbers{
     padding: 3rem 0;
-    background: url("../ph.webp") center/cover fixed no-repeat;
+    background: url("../images/ph.webp") center/cover fixed no-repeat;
     color:var(--white);
 
 }
