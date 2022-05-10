@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav__header{
+    align-items: center !important;
+    justify-content: space-between!important;
+    width: 100%;
+    padding-right: .0;
+    padding-left: .0;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.header {
+    padding: 15px 0;
+    border-bottom: 1px solid #e6f2fb;
+    transition: all 0.5s;
+    background: #fff;
+}
+
+.main-header {
+    color: #1678be;
+    text-align: center; 
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif
+}
+#header .main-header {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 992px) {
+    #header .logo {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    #header .main-header {
+        font-size: 28px;
+    }
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav UL {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav {
+    display: inline;
+    position: relative;
+    
+}
+
+.nav-link-scrollto {
+    float: left;
+    color: #2487ce;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link-scrollto,
+.nav-link-scrollto:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 14px;
+    color: #16507b;
+    white-space: nowrap;
+    transition: 0.3s
+}
+
+.nav-link-scrollto:hover {
+    color: #469fdf;
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.niya{
+    margin: auto;
+
+}
+
+.niya:hover:hover{
+    padding: 10px;
+      background: #2487ce;
+      color: #e6f2fb;
+}
+
