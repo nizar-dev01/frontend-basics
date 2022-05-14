@@ -11,7 +11,8 @@ body {
     padding-left: .0;
     margin-right: auto;
     margin-left: auto;
-    
+    display: flex;
+    max-width: 60%;
 }
 
 .header {
@@ -126,7 +127,6 @@ h6 {
     width: 100%;
     height: 40vh;
     position: relative;
-    background: url(./img/hero-bg.jpg) top center;
     background-size: cover;
     position: relative;
     align-items: center!important;
@@ -141,14 +141,15 @@ h6 {
 }
 
 .div{
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .div_h1 {
     text-align: center;
     color: #0f5081;
-    font-size:7vw;
-    display: flex;
+    font-size:8vw;
+    font-size: 4rem;
 }
 
 .div_h2{
