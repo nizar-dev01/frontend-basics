@@ -26,6 +26,31 @@ html {
     scroll-behavior: smooth;
 }
 
+section{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even){
+    background: #eee;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    color: #fff;
+    background:var(--green);
+    transition: 1s;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -197,3 +222,41 @@ header .icons #menu-bars {
     top: 2rem; right: 3rem;
     font-size: 5rem;
 }
+
+.home .home-slider .slider{
+    display: flex;
+    align-items: center;
+    flex-wrap:  wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.home .home-slider .slider .content{
+    flex: 1 1 40rem;
+}
+
+.home .home-slider .slider .image{
+    flex: 1 1 40rem;
+}
+
+.home .home-slider .slider .image img{
+    width: 100%;
+}
+
+.home .home-slider .slider .content span{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.home .home-slider .slider .content h3{
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.home .home-slider .slider .content p{
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
